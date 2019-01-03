@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 60px;
+  min-height: 60px;
+  padding: 0 1rem;
+  background: #ffffff;
+  border-bottom: 1px solid #d4dadf;
+  box-shadow: 0 1px 1px 0 #f0f1f4;
+  background: linear-gradient(to right, deeppink  0%,  rgb(111, 0, 255) 100%);   
+}
+
+.navbar__logo {
+  display: block;
+  width: 80%;
+  border: none;
+ height: 100%;
+}
+
+.navbar-menu__opcoes li a {
+  color: black;
+  padding: 0.3rem 0;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    padding: 0 10%;
+  }
+
+  
+}

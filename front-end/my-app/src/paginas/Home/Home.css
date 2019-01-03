@@ -1,0 +1,37 @@
+.home {
+  height: 100%;
+  padding: 1.5rem 1rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./background.jpg');
+  border: none;
+
+}
+
+.home__carregando {
+  display: block;
+  margin: 0 auto;
+  border: none
+  
+}
+
+.home__carregando .img{
+  border: none;
+}
+.home .fileUploader {
+  background: red;
+}
+
+.home .fileContainer{
+  width: 100%;
+  
+}
+
+
+@media (min-width: 992px) {
+  .home {
+    padding: 1.5rem 10% 0;
+    background-image: url('./background.jpg');
+
+  }
+}
